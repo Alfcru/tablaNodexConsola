@@ -20,3 +20,4 @@ console.log('base: yargs', argv.base)
 crearArchivoTablaProm(argv.b, argv.l, argv.h)
     .then( nombreArchivo => console.log( nombreArchivo.zebra, 'creado'.rainbow))
     .catch( err => console.log(err,'nuestro error'))
+
